@@ -1,6 +1,8 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 const navigation = [
@@ -51,6 +53,9 @@ export default function Example() {
                                     </div>
                                 </div>
                             </div>
+                            <a className="text-white" href="https://www.facebook.com/cong201/"><FontAwesomeIcon className="h-10 w-10 mr-4" icon={faFacebook} /></a>
+                            <a className="text-white rounded-xl" href="https://www.linkedin.com/in/l%C3%AA-v%C4%83n-c%C3%B4ng-287141248/"><FontAwesomeIcon className="h-12 w-10 mr-4" icon={faLinkedin} /></a>
+                            <a className="text-white" href="https://github.com/cong201"><FontAwesomeIcon className="h-10 w-10 mr-28" icon={faGithub} /></a>
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                 <button
                                     type="button"
