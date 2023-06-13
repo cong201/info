@@ -15,3 +15,13 @@
 .font-home{
   font-family: 'Playfair', serif;
 }
+
+@media (max-width: 767px) {
+  .h-400 {
+    height: auto;
+  }
+
+  .mt-10 {
+    margin-top: 10px;
+  }
+}
