@@ -17,10 +17,10 @@ function Header(...classes: string[]) {
 
 export default function Example() {
     return (
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className='bg-gray-800 fixed top-0 left-0 right-0 z-50'>
             {({ open }) => (
                 <>
-                    <div className="mx-auto max-w-9xl  sm:px-6 lg:px-8">
+                    <div className="mx-auto max-w-9xl sm:px-6 lg:px-8">
                         <div className="relative flex h-16 items-center justify-between">
                             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
@@ -53,9 +53,9 @@ export default function Example() {
                                     </div>
                                 </div>
                             </div>
-                            <a className="text-white" href="https://www.facebook.com/cong201/"><FontAwesomeIcon className="h-10 w-10 mr-4" icon={faFacebook} /></a>
-                            <a className="text-white rounded-xl" href="https://www.linkedin.com/in/l%C3%AA-v%C4%83n-c%C3%B4ng-287141248/"><FontAwesomeIcon className="h-11 w-10 mr-4" icon={faLinkedin} /></a>
-                            <a className="text-white" href="https://github.com/cong201"><FontAwesomeIcon className="h-10 w-10 mr-28" icon={faGithub} /></a>
+                            <a className="text-white" href="https://www.facebook.com/cong201/"><FontAwesomeIcon className="h-8 w-8 mr-4" icon={faFacebook} /></a>
+                            <a className="text-white rounded-xl" href="https://www.linkedin.com/in/l%C3%AA-v%C4%83n-c%C3%B4ng-287141248/"><FontAwesomeIcon className="h-9 w-8 mr-4" icon={faLinkedin} /></a>
+                            <a className="text-white" href="https://github.com/cong201"><FontAwesomeIcon className="h-8 w-8 mr-28" icon={faGithub} /></a>
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                 <button
                                     type="button"

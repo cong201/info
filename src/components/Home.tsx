@@ -10,12 +10,16 @@ function Home() {
                 <h1 className="mb-4 text-center text-3xl md:text-5xl">Lê Văn Công</h1>
                 <h2 className="mb-4 text-center text-2xl md:text-4xl">Đại học khoa học Tự Nhiên-HUS</h2>
                 <div className="flex items-center mb-4">
-                    <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+                    <FontAwesomeIcon icon={faEnvelope} className="mr-2" />:
                     <h2 className="text-center text-lg md:text-xl">conglevan21072001@gmail.com</h2>
                 </div>
                 <div className="flex items-center">
-                    <FontAwesomeIcon icon={faPhoneVolume} className="mr-2" />
+                    <FontAwesomeIcon icon={faPhoneVolume} className="mr-2" />:
                     <h2 className="text-center text-lg md:text-xl">0337782934</h2>
+                </div>
+                <div className='mt-20 md:w-full'>
+                    <button className="w-60 h-16 text-3xl border border-green-500 rounded-lg">About me</button>
+                    <button className='w-60 h-16 text-3xl border border-green-500 ml-10 rounded-lg'>My CV</button>
                 </div>
             </div>
             <div className="w-full md:w-1/2 flex items-center justify-center">
