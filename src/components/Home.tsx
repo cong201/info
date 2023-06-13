@@ -18,7 +18,7 @@ function Home() {
                     <h2 className="text-center text-lg md:text-xl">0337782934</h2>
                 </div>
                 <div className="md:mt-20 md:w-full mt-16">
-                    <button className="w-40 h-14 text-2xl border border-green-500 rounded-lg md:w-60 md:h-16 md:text-3xl">About me</button>
+                    <button className="w-40 h-14 text-2xl border border-green-500 rounded-lg md:w-60 md:h-16 md:text-3xl ml-24">About me</button>
                     <button className="w-40 h-14 text-2xl border border-green-500 ml-10 rounded-lg md:w-60 md:h-16 md:text-3xl">My CV</button>
                 </div>
             </div>

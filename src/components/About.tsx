@@ -4,8 +4,8 @@ import 'react-vertical-timeline-component/style.min.css';
 function About() {
     return (
         <div className="bg-gray-800">
-            <h1 className="text-6xl text-white">About Me</h1>
-            <p className="text-4xl mb-16 mt-6 text-white">I have young strength and a little experience of interning at companies !</p>
+            <h1 className="text-6xl text-white ml-6">About Me</h1>
+            <p className="text-4xl mb-16 mt-6 text-white ml-6">I have young strength and a little experience of interning at companies !</p>
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work text-white"
